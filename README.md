@@ -1,1 +1,1 @@
-# JournyOfLinux
+# JourneyOfLinux
