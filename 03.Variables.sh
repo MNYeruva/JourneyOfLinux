@@ -20,3 +20,6 @@
 - VAR=$((Expression))
 DATE=$(date +%F)
 
+value=$((4+5))
+echo add - $value
+
