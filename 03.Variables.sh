@@ -14,3 +14,9 @@
       echo trainer name - $name
       echo class name - ${class}
 
+  DATE=2020-01-23
+  echo Today date is $DATE
+
+- VAR=$((Expression))
+DATE=$(date +%F)
+
