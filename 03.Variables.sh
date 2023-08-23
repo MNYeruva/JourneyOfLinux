@@ -13,4 +13,4 @@
 
       echo trainer name - $name
       echo class name - ${class}
-      echo class name - $(class)
+
