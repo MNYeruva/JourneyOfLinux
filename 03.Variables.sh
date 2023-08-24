@@ -28,3 +28,20 @@ echo add - $value
        - A variable should not start with a number and it can start with   - As a user you should know that what data would come, since there is no data types.
           _(Underscore)
 
+- Variable of BASH SHELL will hold 3 properties.
+    - ReadWrite
+            $ a=46
+            $ readonly a
+            $ a=100
+             -bash: a:readonly variable
+    - Scalar (Arrays)
+            $ b=(46,64)
+            $ echo ${b[0]}
+            $ 46
+            $ echo ${b[1]}
+    _ Local (Environment)
+            $ a=46
+            $ sh /tmp/1.sh
+            $ export a
+            $ sh /tmp/1.sh
+             46
