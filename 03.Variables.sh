@@ -22,4 +22,9 @@ DATE=$(date +%F)
 
 value=$((4+5))
 echo add - $value
+                                     VAR=DATA
+       - Variable names can have only characters a-z,A-Z,0-9,_(Underscore) - Variables by default will not have any data types.
+       - Special chracters are not allowed                                 - Everything is a string
+       - A variable should not start with a number and it can start with   - As a user you should know that what data would come, since there is no data types.
+          _(Underscore)
 
