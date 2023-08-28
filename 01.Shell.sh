@@ -13,3 +13,6 @@
 Quotes:
 Single Quotes: Does not consider any character as a special character.
 Double Quotes: Very few characters like $ will be considered as special and remaining of them are normal characters.
+
+
+set -e :
