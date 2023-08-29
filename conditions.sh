@@ -23,14 +23,14 @@ Conditions:
       Command-----> if else ---> false---->Command
                             ---->true----->Command
 
-      Else if:
-      if[expression1]
+      Else if: Multiple Conditions
+      if [expression1]
       then
         commands1
-      elif[expression2]
+      elif [expression2]
       then
         commands2
-      elif[expression3]
+      elif [expression3]
       then
         command3
         else
