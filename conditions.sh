@@ -42,3 +42,25 @@ Conditions:
                     false-------> Else if ------>false------>Command
 
                                   false---->
+
+
+Expressions:
+   String Comparision:
+   ["abc"  == "ABC"]
+   ["abc" != "ABC"]
+   [-z "$USER"]
+
+Operators: -eq, -ne, -gt,-ge, -lt, -le
+[ 1 -eq 2 ]
+[ 1 -ne 2 ]
+[ 1 -gt 2 ]
+[ 1 -ge 2 ]
+[ 1 -lt 2 ]
+[ 1 -le 2 ]
+
+Operators: -f, -e
+[ -f file ]
+[ ! -f file ]
+[ -e file ]
+
+
