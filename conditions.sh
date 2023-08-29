@@ -50,6 +50,7 @@ Expressions:
    ["abc" != "ABC"]
    [-z "$USER"]
 
+Number Comparision:
 Operators: -eq, -ne, -gt,-ge, -lt, -le
 [ 1 -eq 2 ]
 [ 1 -ne 2 ]
@@ -58,6 +59,7 @@ Operators: -eq, -ne, -gt,-ge, -lt, -le
 [ 1 -lt 2 ]
 [ 1 -le 2 ]
 
+File Comparision:
 Operators: -f, -e
 [ -f file ]
 [ ! -f file ]
