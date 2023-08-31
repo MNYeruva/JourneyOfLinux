@@ -1,6 +1,6 @@
 Loops:
-  - FOR
-  - WHILE
+  - FOR - Inputs are known then go with FOR loop.
+  - WHILE - Inputs can be controlled then go with WHILE loop.
 
 
 i=10
